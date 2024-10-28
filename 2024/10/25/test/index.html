@@ -12,7 +12,7 @@
 <meta property="article:tag" content="typescript">
 <meta property="article:tag" content="bug">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://yaomucha.github.io/img/default.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2024/10/25/test/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+<meta name="twitter:image" content="https://yaomucha.github.io/img/default.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2024/10/25/test/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
     (() => {
       
     const saveToLocal = {
@@ -103,7 +103,17 @@
     detectApple()
   
     })()
-  </script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-WEM14NRLG6"></script><script>window.dataLayer = window.dataLayer || []
+  </script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6c43b442e831e825db53e789a808071e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+btf.addGlobalFn('pjaxComplete', () => {
+  _hmt.push(['_trackPageview',window.location.pathname])
+}, 'baidu_analytics')
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-WEM14NRLG6"></script><script>window.dataLayer = window.dataLayer || []
 function gtag(){dataLayer.push(arguments)}
 gtag('js', new Date())
 gtag('config', 'G-WEM14NRLG6')
